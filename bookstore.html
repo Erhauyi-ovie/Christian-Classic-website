@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Classics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bookstore.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i>c-classics</a>
+
+            <div class="wrapper">
+                <div class="search_box">
+                    <div class="dropdown">
+                        <div class="default_option">Search by </div>
+                        
+                        <ul>
+                            <li>All</li>
+                            <li>Author</li>
+                            <li>Biography</li>
+                            <li>Title</li>
+                        </ul>
+                       
+                    </div>
+                    <div class="search_field">
+                        <!-- <input type="search" name="" placeholder="search here..." id="search-box">
+                        <label for="search-box" class="fas fa-search"></label> -->
+                        <input type="search" class="input" placeholder="search">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form> -->
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#arrivals">arrivals</a>
+                <a href="#reviews">reviews</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar -->
+
+    <div>
+        <nav class="bottom-navbar">
+            <a href="#home" class="fas fa-home"></a>
+            <a href="#featured" class="fas fa-list"></a>
+            <a href="#arrivals" class="fas fa-tags"></a>
+            <a href="#reviews" class="fas fa-comments"></a>
+            <a href="#blogs" class="fas fa-blogs"></a>
+        </nav>
+    </div>
+
+    <!--login form  -->
+
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="">
+
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="#">click here</a></p>
+            <p>don't have an account ? <a href="#">create one</a></p>
+        </form>
+    </div>
+    <!--Home section starts here-->
+
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>Christian Classics</h3>
+                <p>"Remove not the ancient landmark, which thy fathers have set"</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="image/classics_.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/johns.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/utmost.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/charles.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/devotionals.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/DL MOODY_.jpg" alt=""></a>
+                </div>
+                <img src="image/stand.png" class="stand" alt="">
+            </div>
+        </div>
+    </section>
+    <!---home section ends-->
+
+    <!---icons section starts-->
+
+    <section class="icons-container">
+        <div class="icons">
+            <!-- <i class="fas fa-plane"></i> -->
+            <span class="material-symbols-outlined">
+                live_help
+                </span>
+            <div class="content">
+                <h3>Help</h3>
+                <p>24/7 support</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <!-- <i class="fas fa-lock"></i> -->
+            <span class="material-symbols-outlined">
+                phone_in_talk
+                </span>
+            <div class="content">
+                <h3>Prayer</h3>
+                <p>our team is willing to pray with you</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <!-- <i class="fas fa-redo-alt"></i> -->
+            <span class="material-symbols-outlined">
+                group
+                </span>
+            <div class="content">
+                <h3>Counselling</h3>
+                <p>Speak with our Counsellors</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>Bible Study</h3>
+                <p>join us on our weekly bible study</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--icons section ends-->
+
+    <!---featured section starts-->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"><span>featured books</span></h1>
+
+        <div class="containers">
+            <div class="card-content" style="display: none;">
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-1.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="https://ccel.org/ccel/l/lawrence/practice/cache/practice.pdf">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-2.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>Man-God's dwelling place</h3>
+                        <p>A.W Tozer</p>
+                        <h5><a href="https://www.pdfdrive.com/man-the-dwelling-place-of-god-by-a-w-tozer-e6498120.html">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-3.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>Talks To Farmers</h3>
+                        <p>C.H Spurgeon</p>
+                        <h5><a href="https://www.gutenberg.org/cache/epub/42518/pg42518-images.html">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-4.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Art Of Illustrations</h3>
+                        <p>C.H Spurgeon</p>
+                        <h5><a href="https://www.gutenberg.org/cache/epub/42558/pg42558-images.html">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-5.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>Gleaning among the sheaves</h3>
+                        <p>C.H Spurgeon</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-1.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>Words of warnings for daily life</h3>
+                        <p>C.H Spurgeon</p>
+                        <h5><a href="https://www.spurgeongems.org/chs_words-of-warning-for-daily-life.pdf">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-2.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>Words of counsel for christian workers</h3>
+                        <p>C.H Spurgeon</p>
+                        <h5><a href="https://www.spurgeongems.org/chs_words-of-counsel-for-Christian-workers.pdf">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-3.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>God always cares</h3>
+                        <p>C.H Spurgeon</p>
+                        <h5><a href="https://www.spurgeongems.org/chs_God-always-cares.pdf">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-4.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The saint and his savior</h3>
+                        <p>C.H Spurgeon</p>
+                        <h5><a href="https://www.spurgeongems.org/chs_the-saint-and-his-savior.pdf">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-5.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The set of the sail</h3>
+                        <p>A.W Tozer</p>
+                        <h5><a href="https://www.pdfdrive.com/the-set-of-the-sail-e199764643.html">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-6.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-7.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-8.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-9.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-10.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-1.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-2.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-3.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-4.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5>Read Online</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-5.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-6.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-7.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-8.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-9.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-10.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-1.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-2.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-3.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-4.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-5.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-6.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"><img src="./image/book-7.png" alt="books"></div>
+                    <div class="card-info">
+                        <h3>The Normal Christian Life</h3>
+                        <p>Wachtman Nee</p>
+                        <h5><a href="#">Read Online</a></h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="pagination">
+            <!-- <li class="page-item previous-page disable"><a class="page-link" href="#">Prev</a></li>
+            <li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+            <li class="page-item current-page"><a class="page-link" href="#">5</a></li>
+            <li class="page-item current-page"><a class="page-link" href="#">6</a></li>
+            <li class="page-item dots"><a class="page-link" href="#">...</a></li>
+            <li class="page-item current-page"><a class="page-link" href="#">10</a></li>
+            <li class="page-item next-page"><a class="page-link" href="#">Next</a></li> -->
+        </div>
+    
+    </section>
+    <!---featured section ends-->
+
+    <!--newsletter section starts-->
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>subscribe for latest updates</h3>
+            <input type="email" name="" placeholder="enter your email" id="" class="box">
+            <input type="submit" value="subcribe" class="btn">
+        </form>
+    </section>
+    <!--newsletter section ends-->
+
+    <!--arrivals section starts-->
+
+    <section class="arrivals" id="arrivals">
+
+        <h1 class="heading"><span>new arrivals</span></h1>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>weapon of prayer</h3>
+                        <div class="price">E.M Bounds</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Pursuit of God</h3>
+                        <div class="price">A.W Tozer</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>That Incredible Christian</h3>
+                        <div class="price">A.W Tozer</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Finest Of Wheat</h3>
+                        <div class="price">Wachtman Nee</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The Beautitude</h3>
+                        <div class="price">C.H Spurgeon</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Basic Elements of The Christians Life, Vol1</h3>
+                        <div class="price">Wachtman Nee</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>All Inclusive Christ</h3>
+                        <div class="price">Wachtman Nee</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The Economy Of God</h3>
+                        <div class="price">Wachtman Nee</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>According To Promise</h3>
+                        <div class="price">C.H Spurgeon</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Why Revival Tarries</h3>
+                        <div class="price">Leonard Ravenhill</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!---arrivals section ends-->
+
+    <!--deal section starts-->
+
+    <section class="deal">
+
+        <div class="content">
+            <!-- <h3>deal of the day</h3> -->
+            <!-- <h1>upto 50% off</h1> -->
+            <p><i class="quote">“Give me one hundred preachers who fear nothing but sin, and desire nothing but God, and I care not a straw whether they be clergymen or laymen; such alone will shake the gates of hell and set up the kingdom of heaven on Earth.”
+                <br>― John Wesley</i></p>
+            <!-- <a href="#" class="btn">shop now</a> -->
+        </div>
+
+        <div class="image">
+            <img src="image/deal-img.jpg " alt="">
+        </div>
+    </section>
+    <!--deal section ends-->
+
+    <!--review sectioin starts-->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading"><span>famous quotes</span></h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/bounds.jpeg" alt="">
+                    <h3>E.M Bounds</h3>
+                    <p>“A prepared heart is much better than a prepared sermon. A prepared heart will make a prepared sermon.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/john.jpeg" alt="">
+                    <h3>John Wesley</h3>
+                    <p>“It cannot be that the people should grow in grace unless they give themselves to reading. A reading people will always be a knowing people. ”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/finney.jpg" alt="">
+                    <h3>Charles finney</h3>
+                    <p>If the presence of God is in the church, the church will draw the world in. If the presence of God is not in the church the world will draw the church out. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/charles.jpg" alt="">
+                    <h3>C.H Spurgeon</h3>
+                    <p>A time will come when instead shepherds feeding the sheep, the church will have clowns entertaining the goats </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/leonard.jpeg" alt="">
+                    <h3>Leonard Ravenhill</h3>
+                    <p>Prayer is not an arguement with God to persuade him to move things our way, but an exercise by which we are enabled by his spirit to move ourselves his way. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/moody.jpeg" alt="">
+                    <h3>DL Moody</h3>
+                    <p>I'd rather be able to pray than to be a great preacher; Jesus Christ never taught his disciples how to preach, but only how to pray.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--review section ends-->
+
+    <!---blogs section starts-->
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading"><span>our blogs</span></h1>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-1.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Mornings with Tozer</h3>
+                        <p>Mornings with Tozer Podcast is a two-minute daily devotional from the writings of A.W. Tozer.</p>
+                        <a href="https://awtozer.com/?view=podcast" class="btn">follow online</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-2.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Gleanings</h3>
+                        <p>Gleanings is a periodic blog post owned and managed by the livingseed team.</p>
+                        <a href="https://blog.livingseed.org/" class="btn">Follow online</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/spurgeon2.jpg" alt="" class="spur">
+                    </div>
+
+                    <div class="content">
+                        <h3>Morning and evening</h3>
+                        <p>Charles Spurgeon Morning and Evening Daily Devotional offers wisdom and insight for applying Biblical truths to the ups and downs of everyday life.</p>
+                        <a href="#" class="btn">Follow online</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-4.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Mornings with Tozer</h3>
+                        <p>Mornings with Tozer Podcast is a two-minute daily devotional from the writings of A.W. Tozer.</p>
+                        <a href="https://awtozer.com/?view=podcast" class="btn">follow online</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-5.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Gleanings</h3>
+                        <p>Gleanings is a periodic blog post owned and managed by the livingseed team.</p>
+                        <a href="https://blog.livingseed.org/" class="btn">Follow online</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-3.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Gleanings</h3>
+                        <p>Gleanings is a periodic blog post owned and managed by the livingseed team.</p>
+                        <a href="https://blog.livingseed.org/" class="btn">Follow online</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--blogs section ends-->
+
+
+    <!---footer section starts-->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Our locations</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>India</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>USA</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Russia</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>France</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Japan</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Africa</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>featured</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>arrivals</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>famous quotes</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>our blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>account info</a>
+                <!-- <a href="#"><i class="fas fa-arrow-right"></i>ordered items</a> -->
+                <a href="#"><i class="fas fa-arrow-right"></i>privacy</a>
+                <!-- <a href="#"><i class="fas fa-arrow-right"></i>payment method</a> -->
+                <a href="#"><i class="fas fa-arrow-right"></i>our services</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+123-809351237</a>
+                <a href="#"><i class="fas fa-phone"></i>+123-909351237</a>
+                <a href="#"><i class="fas fa-envelope"></i>ovieeugene@gmail.com</a>
+                <img src="image/worldmap.png" class="map" alt="">
+            </div>
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit">created by <span>Christian Classics</span> | all rights reserved</div>
+    </section>
+    <!---footer section ends-->
+
+    <!--loader-->
+
+    <div class="loader-container">
+        <img src="image/loader-img.gif" alt="">
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="bookstore.js"></script>
+
+</body>
+
+</html>
